@@ -1,8 +1,7 @@
-# slaughterhouse
-Reaps terminated spot instances from Rancher using SQS messages from ASG
+# rancher-asg-host-unregisterer
 
-Uses hostname of instances to remove them from Rancher
+A simple SQS processor to unregister hosts with Rancher on autoscaling event.
 
-#Credits
+## Credits
 
-This is a copy and paste fork of the original handler by Tom Hill tom@greensheep.io as seen here: https://hub.docker.com/r/greensheep/rancher-delete-host
+This is a copy and paste fork of the original handler by Tom Hill <tom@greensheep.io> as seen here: https://hub.docker.com/r/greensheep/rancher-delete-host
